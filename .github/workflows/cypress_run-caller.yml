@@ -1,4 +1,4 @@
-name : Cypress run caller workflow for external public repo
+name : Cypress run caller workflow for external public repo owned by the same user
 on: push
 jobs:
   cypress_run-workflow:
