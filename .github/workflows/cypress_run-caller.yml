@@ -6,4 +6,4 @@ jobs:
     with:
       CYPRESS_BASE_URL : http://localhost:4200
     secrets:
-      CYPRESS_RECORD_KEY: ''
+      CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
