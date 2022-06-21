@@ -2,10 +2,10 @@ name: NPM build reusable workflow
 
 on: push
 env:
-  PROJECT_ROOT: ${{"."}}
-  NPM_CI_OPTIONS: ${{""}}
-  NPM_BUILD_OPTIONS: ${{""}}
-  NPM_TEST_OPTIONS: ${{""}}
+  PROJECT_ROOT: ${{'.'}}
+  NPM_CI_OPTIONS: ${{''}}
+  NPM_BUILD_OPTIONS: ${{''}}
+  NPM_TEST_OPTIONS: ${{''}}
 jobs:
   npm_install:
     runs-on: ubuntu-latest
@@ -26,8 +26,9 @@ jobs:
           restore-keys: | # Optional
             ${{runner.os}}-build-${{env.cache-name}}-
       - name: Install dependencies
-        run: cd ${{env.PROJECT_ROOT}}
-        run: npm ci
+        run: |
+            cd ${{env.PROJECT_ROOT}}
+            npm ci
   
   npm_build:
     runs-on: ubuntu-latest
