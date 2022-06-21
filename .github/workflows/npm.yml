@@ -1,5 +1,6 @@
 name: NPM build reusable workflow
 
+on: push
 env:
   PROJECT_ROOT: ${{"."}}
   NPM_CI_OPTIONS: ${{""}}
