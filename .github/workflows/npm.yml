@@ -26,7 +26,7 @@ jobs:
     needs: npm_install
     steps:
       - name: Build the project
-        run: npm build ${{env.NPM_BUILD_OPTIONS}}
+        run: npm run build ${{env.NPM_BUILD_OPTIONS}}
 
   npm_test:
     runs-on: ubuntu-latest
