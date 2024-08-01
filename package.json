@@ -30,7 +30,7 @@
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "@types/chart.js": "^2.9.34",
     "angular-notifier": "^9.1.0",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^5.0.0",
     "chart.js": "^2.9.4",
     "ng2-charts": "^2.4.3",
     "ngx-bootstrap": "^7.0.0",
