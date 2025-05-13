@@ -28,7 +28,7 @@
     "@angular/router": "~12.2.0",
     "@auth0/angular-jwt": "^5.0.2",
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
-    "@types/chart.js": "^2.9.34",
+    "@types/chart.js": "^4.0.1",
     "angular-notifier": "^9.1.0",
     "bootstrap": "^4.5.0",
     "chart.js": "^2.9.4",
